@@ -390,4 +390,4 @@ print("\nTest:")
 print(y_test.value_counts(normalize=True))
 
 # Ekspor 5 baris pertama ke file CSV
-df.to_csv('output.csv', index=False)
+df.to_csv('data_clean.csv', index=False)
